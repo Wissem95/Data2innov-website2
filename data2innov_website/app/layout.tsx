@@ -4,8 +4,8 @@ import "./globals.css";
 import Header from "@/app/components/Header";
 import Footer from "@/app/components/Footer";
 import React from "react";
-import Navbar from "@/app/components/Navbar";
-import Hero from "@/app/components/Hero";
+
+import Caroussel from "@/app/components/Caroussel";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -25,6 +25,7 @@ export default function RootLayout({
 
         <Header />
       {children}
+        <Caroussel />
       <Footer />
       </body>
     </html>
